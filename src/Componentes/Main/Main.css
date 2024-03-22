@@ -1,0 +1,8 @@
+main {
+    background-color: var(--cor-fundo-escuro);
+    grid-area: main;
+  
+    display: grid;
+    place-content: center; 
+    
+}

@@ -1,0 +1,13 @@
+footer {
+    background-color: var(--cor-primaria);
+    grid-area: footer;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .texto-copyright {
+    color: var(--cor-texto-claro);
+  }
+  
