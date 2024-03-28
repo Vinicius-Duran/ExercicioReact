@@ -1,14 +1,14 @@
 import "./Main.css";
-import DiaAtual from "./SubComponentes/DiaAtual/DiaAtual";
-import MesAtual from "./SubComponentes/MesAtual/MesAtual";
-import OlaMundo from "./SubComponentes/OlaMundo/OlaMundo";
+import BotaoContador from "./SubComponentes/BotaoContador/BotaoContador";
+import Contador from "./SubComponentes/Contador/Contador";
+
 
 const Main = () => {
   return (
     <main>
-      <OlaMundo/>
-      <DiaAtual/>
-      <MesAtual/>
+      <BotaoContador/>
+      <Contador/>
+      
     </main>
   );
 };
