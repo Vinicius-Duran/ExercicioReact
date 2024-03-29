@@ -1,0 +1,16 @@
+.multiplicar{
+
+    width: flex;
+    height: 64px;
+    border: 8px;
+    margin: 10px;
+    color: white;
+    background-color: var(--cor-primaria-escura);
+}
+
+input, textarea {
+    background-color:  var(--cor-primaria-escura);
+    height: 24px;
+    color: white;
+  }
+  

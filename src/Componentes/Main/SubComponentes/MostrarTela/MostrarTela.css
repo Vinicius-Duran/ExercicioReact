@@ -1,16 +1,20 @@
-.btcontador{
+.butao{
 
+    width: flex;
+    height: flex;
+    border: 8px;
+    margin: 10px;
+    align-content: center;
+    color: black;
+    background-color: white;
     padding: 16px 32px;
     border: navy;
     cursor: pointer;
     border-radius: 8px;
     margin: 2px;
-    background-color: var(--cor-secundaria-clara);
-    color: var(--cor-texto-padrao);
-
 }
 
-.divcontador{
+.mostrar{
 
     width: flex;
     height: flex;

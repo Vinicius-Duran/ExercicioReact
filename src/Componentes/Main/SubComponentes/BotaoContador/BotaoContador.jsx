@@ -1,3 +1,4 @@
+import "./BotaoContador.css"
 import React from "react";
 
 const BotaoContador = () => {
@@ -8,8 +9,8 @@ const BotaoContador = () => {
     };
   
     return (
-      <div>
-        <button onClick={incrementarContador}>Contador é: {contador}</button>
+      <div  className="divcontador">
+        <button onClick={incrementarContador}  className="btcontador">Contador é: {contador}</button>
       </div>
     );
   };

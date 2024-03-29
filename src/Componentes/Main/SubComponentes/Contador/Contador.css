@@ -1,0 +1,56 @@
+
+.contador{
+
+    width: flex;
+    height: flex;
+    border: 8px;
+    margin: 10px;
+    align-items: center;
+    color: white;
+    background-color: var(--cor-primaria-escura);
+}
+
+.btn{
+    align-items: center;
+    align-content: center;
+}
+
+.spa{
+
+    font-size: 20px;
+   
+}
+
+.bt1{
+ 
+    padding: 16px 32px;
+    border: navy;
+    cursor: pointer;
+    border-radius: 8px;
+    margin: 2px;
+    background-color: var(--cor-secundaria-clara);
+    color: var(--cor-texto-padrao);
+}
+
+
+.bt1:active{
+ 
+    opacity: 0.1;
+}
+
+.bt2{
+ 
+    padding: 16px 32px;
+    border: navy;
+    cursor: pointer;
+    border-radius: 8px;
+    margin: 2px;
+    background-color: var(--cor-secundaria-clara);
+    color: var(--cor-texto-padrao);
+}
+
+
+.bt2:active{
+ 
+    opacity: 0.1;
+}

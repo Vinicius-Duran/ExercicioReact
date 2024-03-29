@@ -1,3 +1,4 @@
+import "./Contador.css"
 import React from "react";
 
 const Contador = () => {
@@ -12,10 +13,12 @@ const Contador = () => {
     };
   
     return (
-      <div>
-        <button onClick={decrementar}>-</button>
-        <span>{valor}</span>
-        <button onClick={incrementar}>+</button>
+      <div className="contador">
+        <div className="btn">
+          <button onClick={decrementar} className="bt1">-</button>
+          <span className="spa">{valor}</span>
+          <button onClick={incrementar} className="bt2">+</button>
+        </div>
       </div>
     );
   };
