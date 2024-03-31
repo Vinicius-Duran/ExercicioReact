@@ -6,11 +6,11 @@ const CambioDolar = () => {
     const [dolar, setDolar] = React.useState(0);
   
     const calcularDolar = () => {
-      setDolar(real / 5); // 1 real = 1/5 dólar
+      setDolar(real / 5); 
     };
   
     const calcularReal = () => {
-      setReal(dolar * 5); // 1 dólar = 5 reais
+      setReal(dolar * 5); 
     };
   
     return (

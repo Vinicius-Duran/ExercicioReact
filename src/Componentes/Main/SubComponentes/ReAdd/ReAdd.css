@@ -1,0 +1,20 @@
+.readd{
+
+    width: flex;
+    height: flex;
+    border: 8px;
+    margin: 10px;
+    color: white;   
+    background-color: var(--cor-primaria-escura);
+}
+
+.addre{
+    
+    width: flex;
+    height: flex;
+    border: 8px;
+    margin: 10px;
+    color: white;   
+    background-color: var(--cor-primaria-escura);
+}
+

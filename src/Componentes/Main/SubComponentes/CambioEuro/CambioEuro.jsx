@@ -6,11 +6,11 @@ const CambioEuro = () => {
     const [euro, setEuro] = React.useState(0);
   
     const calcularEuro = () => {
-      setEuro(real / 5.5); // 1 real = 1/5.5 euro
+      setEuro(real / 5.5);
     };
   
     const calcularReal = () => {
-      setReal(euro * 5.5); // 1 euro = 5.5 reais
+      setReal(euro * 5.5); 
     };
   
     return (

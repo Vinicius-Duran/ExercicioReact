@@ -9,6 +9,9 @@ import Dividir from "./SubComponentes/Dividir/Dividir";
 import CambioDolar from "./SubComponentes/CambioDolar/CambioDolar";
 import CambioEuro from "./SubComponentes/CambioEuro/CambioEuro";
 import CalculoIMC from "./SubComponentes/CalculoIMC/CalculoIMC";
+import AdicionarNome from "./SubComponentes/AdicionarNome/AdicionarNome";
+import RemoverNome from "./SubComponentes/RemoverNome/RemoverNome";
+import ReAdd from "./SubComponentes/ReAdd/ReAdd";
 
 
 const Main = () => {
@@ -23,7 +26,10 @@ const Main = () => {
       <Dividir />
       <CambioDolar/>
       <CambioEuro/>
-      <CalculoIMC/>
+      <CalculoIMC/> 
+      <AdicionarNome/>
+      <RemoverNome/>
+      <ReAdd/>
     </main>
   );
 };
