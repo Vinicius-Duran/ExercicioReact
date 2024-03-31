@@ -6,6 +6,9 @@ import Somar from "./SubComponentes/Somar/Somar";
 import Diminuir from "./SubComponentes/Diminuir/Diminuir";
 import Multiplicar from "./SubComponentes/Multiplicar/Multiplicar";
 import Dividir from "./SubComponentes/Dividir/Dividir";
+import CambioDolar from "./SubComponentes/CambioDolar/CambioDolar";
+import CambioEuro from "./SubComponentes/CambioEuro/CambioEuro";
+import CalculoIMC from "./SubComponentes/CalculoIMC/CalculoIMC";
 
 
 const Main = () => {
@@ -18,7 +21,9 @@ const Main = () => {
       <Diminuir />
       <Multiplicar />
       <Dividir />
-      
+      <CambioDolar/>
+      <CambioEuro/>
+      <CalculoIMC/>
     </main>
   );
 };
