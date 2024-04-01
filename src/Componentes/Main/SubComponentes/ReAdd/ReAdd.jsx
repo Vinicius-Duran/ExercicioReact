@@ -1,9 +1,9 @@
-import "./ReAdd.css"
+import "./ReAdd.css";
 import React from "react";
 
 const ListaNomes = () => {
   const [nome, setNome] = React.useState("");
-  const [nomes, setNomes] = React.useState(["João", "Maria", "José"]);
+  const [nomes, setNomes] = React.useState([""]);
 
   const adicionarNome = () => {
     setNomes([...nomes, nome]);
@@ -17,12 +17,16 @@ const ListaNomes = () => {
   };
 
   return (
-    <div className='readd'>
-      <input type="text" value={nome} onChange={(e) => setNome(e.target.value)} />
+    <div className="readd">
+      <input
+        type="text"
+        value={nome}
+        onChange={(e) => setNome(e.target.value)}
+      />
       <button onClick={adicionarNome}>Adicionar</button>
-      <ul >
+      <ul>
         {nomes.map((nome, index) => (
-          <li key={index} className='addre'>
+          <li key={index} className="addre">
             {nome} <button onClick={() => removerNome(index)}>Remover</button>
           </li>
         ))}
